@@ -1,16 +1,16 @@
 using ModifierLibrary;
 namespace MainProgram
 {
-    class MainProgram :  AccessDemo
+    class MainProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Usama "); 
-            AccessDemo test = new AccessDemo();
-            test.InternalDemo();
-            test.PublicDemo();
-            test.ProtectedInternalDemo();
-            
+            Console.WriteLine("Hello Usama"); 
+            AccessDemo demo1 = new AccessDemo();
+            demo1.InternalDemo();
+            demo1.ProtectedInternalDemo();
+            demo1.PublicDemo(); 
+                       
         }
     }
 }

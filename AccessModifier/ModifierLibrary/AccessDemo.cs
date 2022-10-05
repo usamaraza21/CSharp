@@ -19,14 +19,17 @@ namespace ModifierLibrary
         {
 
         }
+        // PRIVATE PROTECTED Keyword can access by inherited this class and also behave like private.
         private protected void PrivateProtectedDemo()
         {
 
         }
+        //PROTECTED Keyword is access by inherited this Class
         protected  void ProtectedDemo()
         {
 
         }
+        // PROTECTED INTERNAL keyword can only access from Inherit from child class inside the Assembly not outside from the Assembly.
         protected internal void ProtectedInternalDemo()
         {
 

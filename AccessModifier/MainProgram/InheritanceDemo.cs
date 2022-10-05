@@ -2,15 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
-namespace ModifierLibrary
+using ModifierLibrary;
+namespace MainProgram
 {
-    public class InheritedFromAccessDemo : AccessDemo
+    public class InheritanceDemo : AccessDemo 
     {
-        private void InheritedDemo()
+        private void DemoTest()
         {
-            PrivateProtectedDemo();
             ProtectedDemo();
+            PrivateProtectedDemo();
+            ProtectedInternalDemo();
             InternalDemo();
             PublicDemo();
             

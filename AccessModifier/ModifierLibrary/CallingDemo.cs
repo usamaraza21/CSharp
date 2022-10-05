@@ -12,7 +12,6 @@ namespace ModifierLibrary
             AccessDemo test1 = new AccessDemo();
             test1.InternalDemo();
             test1.PublicDemo();
-
         }
     }
 }
